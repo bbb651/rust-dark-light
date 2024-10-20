@@ -1,7 +1,7 @@
 use std::error::Error;
 use std::task::Poll;
 
-use futures::{stream, Stream};
+use futures_lite::{stream, Stream};
 
 use crate::{detect, Mode};
 
